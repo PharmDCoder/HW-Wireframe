@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 960px;
+    margin-left: 155px;
+}
+
+header, nav, footer {
+    padding: 38px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+/*instructions say width for section =495px but 515px fits better?*/
+section {
+    width: 515px;
+    padding-top: 38px;
+    padding-bottom: 230px;
+    margin-top: 20px;
+    margin-right: 0px;
+    position: relative;
+    float: left;
+}
+
+ article {
+    padding: 20px 223px 154px;
+    margin: 12px 15px 5px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    float: left;
+} 
+
+h1 {
+    font-weight: bold;
+    padding: 18px 184px;
+    margin: 0px 24px 24px 36px;
+    position: absolute;
+    left: 150px;
+    top: 365px;
+}
+
+p {
+    padding: 18px 220px;
+    margin: 30px 24px 24px 36px;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+} 
+
+aside {
+    padding: 38px 180px 230px;
+    margin: 20px 20px 20px 0px;
+    float: right;
+
+}
+
+footer {
+    clear: both;
+    overflow: auto;
+}
+ 
+.colorA {
+    background-color: #777;
+    color: #ebebeb;
+}
+
+.colorB {
+    background-color: #ebebeb;
+    color: #777;
+}
